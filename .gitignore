@@ -18,5 +18,4 @@
 # Ignore all image files.
 /public/uploads
 
-/rollback.sh
-/reset.sh
+/*.sh
