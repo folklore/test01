@@ -1,0 +1,28 @@
+ru:
+  images:
+    index:
+      title: Только для пользователей
+    edit:
+      title: Редактирование данных изображения
+    image:
+      add_tags: Добавить теги
+    form:
+      back: Вернуться к главной
+      submit: Обновить
+    show:
+      back: Вернуться к главной
+      add_tags: Добавить теги
+    update:
+      two_hundred: Описание изображения успешно обновлено
+
+  question:
+    index:
+      title: Вы пользователь?
+      b_no: Нет
+      b_yes: Да
+
+  activerecord:
+    attributes:
+      image:
+        title: Заголовок
+        tag_list: Теги

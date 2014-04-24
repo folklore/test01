@@ -1,0 +1,38 @@
+<div class="page-header">
+  <h1><%= t '.title' %></h1>
+</div>
+
+<div class="col-md-6">
+    <div class="caption">
+      <p>
+        <%= link_to t('.b_yes'),
+                    images_path,
+                    class: 'btn btn-primary yes' %>
+      </p>
+      <p>
+        Пользователи могут загружать файлы.
+      </p>
+      <p>
+        Пользователи обязаны указывать заголовок (title) для загружаемых файлов.
+      </p>
+      <p>
+        Файлам можно назначать тэги.
+      </p>
+      <p>
+        Пользователи могут просматривать загруженные файлы.
+      </p>
+    </div>
+</div>
+
+<div class="col-md-6">
+    <div class="caption">
+      <p>
+        <%= link_to t('.b_no'),
+                    :root,
+                    class: 'btn btn-primary no' %>
+      </p>
+      <p>
+        НЕПользователи могу нажать на кнопочку выше.
+      </p>
+    </div>
+</div>
